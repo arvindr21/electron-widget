@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/flipdown-v0.1.2.css">
+</head>
+
+<body>
+    <h2 class="title">Countdown till end of world</h2>
+    <div class="block-center">
+        <div id="flipdown" class="flipdown"></div>
+    </div>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script type="text/javascript" src="./lib/flipdown-v0.1.2.js"></script>
+    <script type="text/javascript">
+    var today = new Date();
+    today.addDays(9);
+
+    new FlipDown(new Date(today).getTime() / 1000, 'flipdown').start();
+
+    </script>
+</body>
+
+</html>

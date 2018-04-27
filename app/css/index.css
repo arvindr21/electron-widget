@@ -1,0 +1,29 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="text"],
+button,
+textarea {
+    -webkit-app-region: no-drag;
+}
+
+body {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+}
+
+.block-center{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
